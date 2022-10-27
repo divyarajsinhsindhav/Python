@@ -2,12 +2,12 @@
 #here we use if_else statment
 
 while True:
-	n = int(input("Enter year :- "))
+	year = int(input("Enter year :- "))
 
-	if n%4==0 and n%4!=0 or n%4==0 and n%100==0 and n%400==0:
-		print(f"Year {n} is leap year")
+	if year%4==0 and year%4!=0 or year%4==0 and year%100==0 and year%400==0:
+		print(f"Year {year} is leap year")
 		break
 
 	else:
-		print(f"Year {n} is not a leap year")	 
+		print(f"Year {year} The is not a leap year")	 
 		continue
