@@ -1,6 +1,6 @@
 #find the area of square using python
-#A = a**2
-#a = sides of square
+#A = Side**2
+#Side = sides of square
 
-a = int(input("Enter side of square :- "))
-print(a**2)
+Side = int(input("Enter side of square :- "))
+print(Side**2)
