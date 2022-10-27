@@ -1,16 +1,16 @@
 #find area of triangle using ython
-#A = [s*{ (s-a) * (s-b) * (s-c) }]**0.5
-#s = (a+b+c)/2
+#A = [s*{ (s-x) * (s-y) * (s-z) }]**0.5
+#s = (x+y+z)/2
 #using "Haron's equation"
 
-a = int(input("Enter side a :- "))
-b = int(input("Enter side b :- "))
-c = int(input("Enter side c :- "))
+x = int(input("Enter side x :- "))
+y = int(input("Enter side y :- "))
+z = int(input("Enter side z :- "))
 
-s = (a+b+c)/2
+s = (x+y+z)/2
 
-p = s-a
-q = s-b 
-r = s-c
+p = s-x
+q = s-y
+r = s-z
 
 print(f"Area of Triangle is {(s*(p*q*r))**0.5}")
