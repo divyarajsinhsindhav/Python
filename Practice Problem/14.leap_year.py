@@ -9,5 +9,5 @@ while True:
 		break
 
 	else:
-		print(f"Year {year} The is not a leap year")	 
+		print(f"Year {year} is not a leap year")	 
 		continue
